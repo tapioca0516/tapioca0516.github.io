@@ -1,0 +1,124 @@
+/* -------------------------------------------------------------------- */
+
+
+#joinHead{
+  font-size: 60px;
+}
+
+#memberJoinPage{
+width: 1024px;
+height: 768px;
+/* background-color: beige; */
+
+font-family: NanumPenScript;
+}    
+
+/* body{
+
+text-align: center;
+} */
+
+
+/* ---------------------------------테이블 구간 ----------------------------------- */
+
+#tbl_t, .tbl_r, .tbl_d{
+border: 11px solid black;
+border-collapse: collapse;
+padding: 10px;
+}
+
+#td_red{
+background-color: rgb(202, 44, 44);
+}
+#td_blue{
+background-color: rgb(48, 48, 179);
+}
+#td_yellow{
+background-color: rgb(235, 235, 45);
+}
+
+.listPage{
+margin-top: 40px;
+}
+
+#joinarea{
+  text-align: center;
+}
+
+/* ---------------------------------a tag list 구간 ----------------------------------- */
+
+a{
+  font-size: 60px;
+  text-decoration: none;
+}    
+
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+#selfIntro:hover{
+  color: rgb(235, 235, 45);
+}
+#travel:hover{
+  color: rgb(202, 44, 44);
+}
+#roadmap:hover{
+  color: rgb(48, 48, 179);;
+}
+#memberJoin:hover{
+  color: rgb(235, 235, 45);
+}
+a:active{
+  color: white;
+}
+/* ---------------------------------가입 구간 ----------------------------------- */
+
+
+table#enroll{
+  /* border: 1px solid !important; */
+  border-spacing:20px;
+  /* width: 500px; */
+  margin: 0 auto;
+}
+table#enroll th{
+  text-align:right;
+}
+table#enroll td.btn-wrapper{
+  text-align: center;
+}
+.phone {
+  width:30px;
+}
+span.req{
+  color:red;
+}
+.short{
+  width:50px;
+}   
+/* -------------------------------------------------------------------- */
+#joinTitle{
+  font-size: 50px;
+}
+
+#enroll th{
+  font-size: 25px;
+}
+.joinBtn{
+  font-size: 25px;
+  font-family: NanumPenScript;
+  background-color: white;
+  /* border-top-left-radius: 5px; 
+  border-bottom-left-radius: 5px; */
+}
+.joinBtn:hover{
+  color: white;
+  background-color: black;
+}
+#membersTitle{
+  font-size: 40px;
+}
+#membersArea{
+  font-size: 30px;
+}

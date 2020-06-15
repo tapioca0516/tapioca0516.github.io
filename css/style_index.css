@@ -1,0 +1,70 @@
+/* -------------------------------------------------------------------- */
+@font-face {
+font-family: NanumPenScript; 
+src: url("../css/NanumPenScript-Regular.ttf"); /* 가는글씨체 웹폰트주소 지정*/
+}
+
+
+
+#beginPage{
+    width: 1024px;
+    height: 768px;
+    /* background-color: beige; */
+
+    font-family: NanumPenScript;
+}    
+
+body{
+
+text-align: center;
+}
+
+/* ---------------------------------테이블 구간 ----------------------------------- */
+
+table, th, td{
+    border: 11px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+#td_red{
+    background-color: rgb(202, 44, 44);
+}
+#td_blue{
+    background-color: rgb(48, 48, 179);
+}
+#td_yellow{
+    background-color: rgb(235, 235, 45);
+}
+
+.listPage{
+    margin-top: 40px;
+}
+
+/* ---------------------------------a tag list 구간 ----------------------------------- */
+
+a{
+    font-size: 60px;
+    text-decoration: none;
+}    
+
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+#selfIntro:hover{
+  color: rgb(235, 235, 45);
+}
+#travel:hover{
+  color: rgb(202, 44, 44);
+}
+#roadmap:hover{
+  color: rgb(48, 48, 179);
+}
+#memberJoin:hover{
+  color: rgb(235, 235, 45);
+}
+a:active{
+  color: white;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여행</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script_travel.js"></script>
+    <link rel="stylesheet" href="css/style_travel.css">
+    <style>
+        @font-face {
+        font-family: NanumPenScript; 
+        src: url("./css/NanumPenScript-Regular.ttf");
+        }
+    </style>
+    <style media="screen">
+      *{
+        margin: 0; padding: 0;
+      }
+      .slide{
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+        border: 8px solid black;
+      }
+      .slide ul{
+       
+        width: 3000px;
+        position: absolute;
+        top:0;
+        left:0;
+        font-size: 0;
+      }
+      .slide ul li{
+        display: inline-block;
+      }
+      #back{
+        position: absolute;
+        top: 120px;
+        left: 0;
+        cursor: pointer;
+        z-index: 1;
+      }
+      #next{
+        position: absolute;
+        top: 120px;
+        right: 0;
+        cursor: pointer;
+        z-index: 1;
+      }
+     </style>
+
+     
+</head>
+<body>
+    <div id="beginPage">
+        <table id="tbl-person" width="1024" height="768">
+            <tr>
+                <td id="td_red" width="150px" height="150px"></td>
+                <td colspan="2" rowspan="2" width="874">
+                  <div id="travelTitle">-Travel-</div>
+                  <div class="slide">
+                    <img id="back" src="images/arrowLeft.png" alt="" width="50">
+                    <ul id="travelUl">
+                      <li><img src="images/scenery1.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/scenery2.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/scenery3.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/scenery4.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/scenery5.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/scenery6.jpg" alt="" width="500" height="300"></li>
+                    </ul>
+                    <ul id="peopleUl">
+                      <li><img src="images/pic1.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/pic2.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/pic3.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/pic4.jpg" alt="" width="500" height="300"></li>
+                      <li><img src="images/pic5.jpg" alt="" width="500" height="300"></li>
+                    </ul>
+                    <img id="next" src="images/arrowRight.png" alt="" width="50">
+                  </div>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <div id="sceneryTitle" class="picsTitle">-Scenery</div>
+                  <div id="peopleTitle" class="picsTitle">-People</div>
+                </td>
+            </tr>
+            <tr>
+                <td id="td_blue"></td>
+                <td ></td>
+                <td id="td_yellow" width="150px" height="150"></td>
+            </tr>
+        </table>
+
+</div>  
+
+<!-- <script type="text/javascript">
+ 
+</script> -->
+    
+</body>
+</html>
